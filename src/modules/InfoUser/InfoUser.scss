@@ -1,0 +1,11 @@
+.block-info {
+    display: flex;
+    position: relative;
+    span {
+        position: absolute;
+        right: 0;
+        top: 0;
+        cursor: pointer;
+        font-size: 25px;
+    }
+}

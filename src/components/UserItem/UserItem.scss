@@ -1,0 +1,19 @@
+.item {
+    background-color: rgb(249, 249, 249);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px 0;
+    padding: 5px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.item:hover {
+    -webkit-box-shadow: inset 1px 1px 22px 5px rgb(167, 167, 167);
+    -moz-box-shadow: inset 1px 1px 22px 5px rgb(167, 167, 167);
+    box-shadow: inset 1px 1px 2px 2px rgb(167, 167, 167);
+    color: rgb(72, 72, 72);
+}
