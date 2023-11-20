@@ -8,8 +8,6 @@ interface ISearchPanel {
 }
 
 const SearchPanel: FC<ISearchPanel> = memo((props) => {
-  console.log("render SearchPanel");
-
   const { searchValue, getTextValue, resetLocalChanges } = props;
   return (
     <div className="block-search">
